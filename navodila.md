@@ -1,5 +1,5 @@
 # Nadaljnja navodila
-
+spremenjena datoteka 
 1. Sedaj imaš lokalno kopijo repozitorija.
 2. Poženite skripto, da boste lahko preigrali zgodbo:
    v ukazno vrstico napišete `./hook-install.sh` in stisnete vnašalko.
