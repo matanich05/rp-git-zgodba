@@ -1,36 +1,41 @@
-# Navodila
+<!-- glavni naslov -->
+# Računalniški praktikum
+<!-- To je komentar, ki bo na prikazanem Markdown-u skrit. 
+     V tem besedilu so v komentarjih napisana navodila za reševanje. -->
 
-Dobrodošli! Ta repozitorij vsebuje interaktivno zgodbo, skozi katero boste spoznali osnove Git-a.
+<!-- 2. nivojski razdelek -->
+## Bližnjice na tipkovnici
 
-Za igranje potrebujete uporabniški račun na GitHubu, na svojem računalniku pa nameščen Git.
+- *Kopiraj* označeno v odložišče: Ctrl+C (**C**opy)
+- *Izreži* označeno v odložišče: Ctrl+X
+- *Prilepi* vsebino odložišča: Ctrl+V
 
-## 1. Naredite svojo kopijo tega repozitorija
+<!-- 2. nivojski razdelek -->
+## Izvorna koda
 
-- Zgoraj desno, v isti vrstici, kot je ime repozitorija (`rp-git-zgodba`), poiščite gumbe Pin, Watch, Fork in Star.
-- Na tem koraku boste začasno izgubili pogled na navodila, zato ga preberite do konca.
-  Kliknite na gumb Fork in na strani, ki se odpre, spodaj še na gumb Create fork.
-  Pristali boste na **svoji** kopiji tega repozitorija, s katero lahko delate naprej - videli boste tudi navodila.
+Včasih pride prav značka <kbd>kbd</kbd> za tipke. Značko uporabimo takole:
 
-## 2. Klonirajte repozitorij na svoj računalnik
-
-[Odprite ukazno vrstico](TODO) in vanjo napišite (ustrezno popravljen) ukaz:
-
+<!-- začetek bloka z izvorno kodo -->
 ```
-git clone git@github.com:〈moje-uporabnisko-ime〉/〈moj-repozitorij〉.git
+<kbd>Ctrl</kbd>
 ```
+<!-- konec bloka z izvorno kodo -->
 
-Sledite navodilom v datoteki `navodila.md`:
-- v ukazni vrstici se premaknite v repozitorij: `cd 〈moj-repozitorij〉` in
-- izpišite vsebino datoteke z navodili: `cat navodila.md`.
+<!-- 2. nivojski razdelek -->
+## Domača naloga
 
-Datoteka `navodila.md` je napisana v jeziku Markdown, za to je koda označena z obrnjenimi apostrofi: `` ` ``.
-To pomeni, da če so v datoteki navodila
-```shell
-Poženite program `nano` takole: `nano datoteka.txt`
-```
-v ukazno vrstico napišete `nano datoteka.txt`, ne pa `` `nano datoteka.txt` ``.
+<!-- Spodnji seznam bo pripravil seznam nalog. Na GitHubu bodo lepo vidna potrditvena polja, 
+     VSCode pa bo prikazal samo oglate oklepaje. Ko nalogo opravite, si to lahko zabeležite tako,
+     da spremenite [ ] v [x]. -->
+- [ ] Izberite si še tri bližnjice, ki jih še ne uporabljate redno, in se jih naučite. 
+      Dodajte jih v prvi razdelek tega dokumenta.
+- [ ] Sinhronizirajte spremembe z repozitorijem na GitHubu: najprej naredite `commit` (smiselno sporočilo bi bilo npr. "dopolni README z vajami za Markdown"), nato pa še `push`.
+- [ ] Imenik z repozitorijem stisnite v arhiv, ga preimenujte v nekaj oblike `ImePriimek.zip` in ga oddajte na učilnico.
 
+<!-- 2. nivojski razdelek -->
+## Uporabne povezave
 
-## Zahvala
-
-Prvo verzijo te igre je pripravil [Patrik Žnidaršič](https://github.com/k3ap).
+1. [FMF učilnica](https://ucilnica.fmf.uni-lj.si/)
+2. [Računalniški sistemi, storitve in oprema za študente](https://ucilnica.fmf.uni-lj.si/mod/page/view.php?id=51619)
+3. [Zapiski in vaje za Računalniški praktikum](http://katjabercic.github.io/racunalniski-praktikum)
+4. [Dokumentacija za Markdown na GitHubu](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
